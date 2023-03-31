@@ -1,4 +1,4 @@
-name: Build Test
+6name: Build Test
 
 on:
   push:
@@ -38,7 +38,7 @@ jobs:
           ~/go/pkg/mod
           ~/.cache/go-build
           ~/Library/Caches/go-build
-          ~\AppData\Local\go-build
+          ~\AppData\Local\go-buil
         key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
         restore-keys: |
           ${{ runner.os }}-go-
